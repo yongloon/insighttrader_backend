@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pandas
+pandas-ta
+python-jose[cryptography] # If you add authentication later
+passlib[bcrypt]         # If you add authentication later
+python-multipart      # For form data, if needed
