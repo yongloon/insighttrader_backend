@@ -1,7 +1,7 @@
 fastapi
 uvicorn[standard]
 pandas
+numpy==1.23.5  # Or a version known to work with your pandas-ta
 pandas-ta
-python-jose[cryptography] # If you add authentication later
-passlib[bcrypt]         # If you add authentication later
-python-multipart      # For form data, if needed
+# python-jose[cryptography] # For future auth
+# passlib[bcrypt]         # For future auth
